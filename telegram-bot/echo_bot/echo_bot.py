@@ -11,7 +11,7 @@ def handle(msg):
 		bot.sendMessage(chat_id, msg['text'])
 
 
-TOKEN = '428479230:AAG2W0ZpK3Sp4HHYRskUO1w9Yu0rF_n4DQg'
+TOKEN = '####'
 bot = telepot.Bot(TOKEN)
 MessageLoop(bot, handle).run_as_thread()
 print('Listening...')

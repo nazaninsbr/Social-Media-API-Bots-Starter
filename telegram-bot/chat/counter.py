@@ -15,7 +15,7 @@ class MessageCounter(telepot.helper.ChatHandler):
 		self.sender.sendMessage(self._count)
 
 
-token = '428479230:AAG2W0ZpK3Sp4HHYRskUO1w9Yu0rF_n4DQg'
+token = '#####'
 bot = telepot.DelegatorBot(token, [
 	pave_event_space()(
 		per_chat_id(), create_open, MessageCounter, timeout=60

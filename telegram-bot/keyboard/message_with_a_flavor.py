@@ -19,7 +19,7 @@ def on_callback_query(msg):
 
     bot.answerCallbackQuery(query_id, text='Got it')
 
-TOKEN = '428479230:AAG2W0ZpK3Sp4HHYRskUO1w9Yu0rF_n4DQg'
+TOKEN = '###'
 bot = telepot.Bot(TOKEN)
 MessageLoop(bot, {'chat': on_chat_message,
                   'callback_query': on_callback_query}).run_as_thread()
